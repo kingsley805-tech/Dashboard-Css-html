@@ -302,7 +302,7 @@ box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
         grid-template-columns:auto auto ;
         place-items:center;
         align-items:center;
-        gap:none;
+        gap:1rem;
         
     
         
