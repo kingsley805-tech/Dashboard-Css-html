@@ -1,0 +1,709 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    list-style:none;
+    box-sizing:border-box;
+}
+body{
+    background:gray;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    
+}
+.logo-image{
+    
+   margin:0 0 0 -65px; 
+}
+.white-drop{
+    width:30px;
+    height:27px;
+}
+.teck{
+    display:none;
+}
+
+.tittle{
+color:white;
+    width:95%;
+    height:10%;
+    background:black;
+    padding:10px;
+    text-align:center;
+    margin-left:40px;
+    padding-bottom:20px;
+    border:none;
+    font-size:30px;
+    justify-content:center;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.nav-1{
+    font-weight:bold;
+    box-shadow: 10px 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.nav-2{
+    font-weight:bold;
+    margin-left:20px;
+    font-size:2.5rem;
+    color:green;
+   
+}
+main{
+  
+    position:absolute;
+    width:90%;
+    height:90%;
+    bottom:10%;
+    right:-6%;
+    background:gray;
+}
+nav{
+    
+    height:100%;
+    width:190px;
+    padding-bottom:20rem;
+    background:black;
+    overflow:hidden;
+    cursor:scroll;
+}
+nav:hover{
+    transition: 3s;
+}
+.nava{
+    margin:20px 10px;
+}
+
+i{
+    padding:10px 0;
+    color:white;
+}
+nav ul{
+    margin: 0 20px 0 0;
+    text-align:center;
+    
+
+}
+label.logo{
+
+    color:white;
+    padding:20px;
+    margin-left:60px;
+    font-size:40px;
+    transition:3s;
+}
+nav ul li{
+    display:flex;
+    flex-direction:row;
+    justify-center:evenly;
+    text-align:center;
+    line-height:30px;
+    font-size:15px;
+    margin:0 0 0 30px;
+   
+   
+    
+}
+
+nav ul li a:hover{
+    color:Green;
+    
+
+}
+nav ul li a{
+    border-radius:5px 5px;
+    margin:20px 0;
+    width:15rem;
+    height:2rem;
+    background:green;
+    padding:0 10px;
+    color:white ;
+    text-transform:uppercase;
+}
+ a.active,a:hover{
+    margin:30px 0;
+    background:gray;
+    border-radius:5px 5px 5px 5px;
+    
+    transition: all 1s;
+}
+.active:hover{
+    background:rgba(0, 0, 0, 0.1); 
+
+}
+.checkbtn{
+    display:none;
+    color:white;
+    float:right;
+    line-height:85px;
+    margin:0 20px 0 0;
+}
+#check{
+    display:none;
+}
+.container{
+display:flex;
+flex-direction:row;
+margin:20px 0 0 10px;
+}
+.container-1{
+    width:13rem;
+    height:11rem;
+    margin: 0 30px;
+    border-radius:15px 15px 15px 15px;
+    text-align:center;
+    background:white;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.container-2{
+    width:13rem;
+    height:11rem;
+    margin:0 20px;
+    text-align:center;
+    border-radius:15px 15px 15px 15px;
+    background:white;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.container-3{
+    width:13rem;
+    height:11rem;
+    margin:0 20px;
+    border-radius:15px 15px 15px 15px;
+    text-align:center;
+    background:white;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.container-4{
+    width:13rem;
+    height:11rem;
+    text-align:center;
+    border-radius:15px 15px 15px 15px;
+    margin:0 20px;
+    background:white;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+img{
+    width:5rem;
+    height:5rem;
+    margin-top:10px;
+    border-radius:50%;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+   
+    
+}
+h2{
+    font-weight:bold;
+}
+.sub{
+    color:gray;
+    font-weight:bold;
+}
+.prof{
+    width:9rem;
+     padding:7px;
+     margin-bottom:5px;
+     font-weight:bold;
+     border:2px solid green;
+     border-radius:10px 10px 10px 10px;
+     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+button:hover{
+    background:green;
+}
+.tabs{
+    width:75%;
+    height:20rem;
+    padding:0.5px 5px;
+    margin:40px 40px 0 40px;
+    background:white;
+    border-radius:10px 10px 10px 10px;
+    border-shadow:3px 4px 3px 2px white;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+h3{
+    margin:20px 0;
+    font-weight:bold;
+}
+.head{
+color:white;
+background:green;
+padding:15px;
+box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.table{
+    
+        border-collapse: collapse;
+        margin: 30px 0;
+        font-size: 16px;
+        min-width: 100%;
+        overflow: hidden;
+        border-radius: 5px 5px 0 0;
+      
+}
+.table thead tr{
+    text-align:left;
+    font-weight:bold;
+    padding:15px;
+    
+}
+.table, th ,td{
+    padding:7px;
+    font-weigth:bold;
+}
+.taj{
+    color:black;
+    font-weight:bold;
+}
+.but{
+    width:5rem;
+     padding:7px;
+     
+     font-weight:bold;
+     border:2px solid green;
+     border-radius:10px 10px 10px 10px;
+     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.diana{
+    color:green;
+    font-weight:bold;
+}
+.log{
+    width:6rem;
+    height:2rem;
+    margin:60px 0 0 25px;
+    background:gray;
+    padding:10px;
+    border-radius:10px 10px 10px 10px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    border:none;
+}
+
+
+
+
+@medias(max-width:952px){
+    
+}
+@media (max-width:858px){
+    main{
+  
+        position:static;
+        width:20%;
+        height:90%;
+       margin:;
+        background:gray;
+    }
+    .logo-image{
+        width:10px;
+        height:10px;
+    }
+   
+    .container{
+        display:grid;
+        grid-template-columns:auto auto ;
+        place-items:center;
+        align-items:center;
+        gap:none;
+        
+    
+        
+       
+        }
+        .container-1{
+            width:7rem;
+            height:7rem;
+            margin: 20px 30px;
+            border-radius:15px 15px 15px 15px;
+            text-align:center;
+            background:white;
+        }
+        .container-2{
+            width:7rem;
+            height:7rem;
+            margin:10px 20px;
+            text-align:center;
+            border-radius:15px 15px 15px 15px;
+            background:white;
+        }
+        .container-3{
+            width:7rem;
+            height:7rem;
+            margin:0 20px;
+            border-radius:15px 15px 15px 15px;
+            text-align:center;
+            background:white;
+        }
+        .container-4{
+            width:7rem;
+            height:7rem;
+            text-align:center;
+            border-radius:15px 15px 15px 15px;
+            margin:0 20px;
+            background:white;
+        }
+        img{
+            width:2rem;
+            height:2rem;
+            margin-top:10px;
+            border-radius:50%;}
+            .tabs{
+                width:290px;
+                height:13rem;
+                padding:0.5px 50px;
+                margin:40px 70px 50px 40px;
+                background:white;
+                border-radius:10px 10px 10px 10px;
+                border-shadow:3px 4px 3px 2px white;
+            }
+            h3{
+                font-size:15px;
+            }
+            .head{
+                color:white;
+                background:green;
+                padding:5px;
+                }
+                .table{
+                    
+                        border-collapse: collapse;
+                        margin: 10px 0;
+                        font-size: 12px;
+                        min-width: 90%;
+                        overflow: hidden;
+                        border-radius: 5px 5px 0 0;
+                      
+                }
+                .table thead tr{
+                    text-align:left;
+                    font-weight:bold;
+                    padding:5px;
+                    
+                }
+                .table, th ,td{
+                    padding:3px;
+                    font-weigth:bold;
+                }
+                .taj{
+                    color:black;
+                    font-weight:bold;
+                   
+                }
+                .but{
+                    width:3rem;
+                     padding:3px;
+                     
+                     font-weight:bold;
+                     border:2px solid green;
+                     border-radius:10px 10px 10px 10px;
+                }
+                .diana{
+                    color:green;
+                    font-weight:bold;
+                }
+                h2{
+                    font-weight:bold;
+                    font-size:10px;
+                }
+                .sub{
+                    color:gray;
+                    font-weight:bold;
+                    font-size:10px;
+                }
+                .prof{
+                    width:4rem;
+                     padding:7px;
+                     margin-bottom:5px;
+                     font-weight:bold;
+                     border:2px solid green;
+                     border-radius:10px 10px 10px 10px;
+                }
+        .tittle{
+            display:none;
+            color:white;
+                width:100vw;
+                height:70px;
+                background:black;
+                padding:10px 0 0 60px;
+                text-align:center;
+                margin:0 60px 0 0;
+                padding-bottom:20px;
+                border:none;
+                font-size:30px;
+                }
+                nav{
+    
+                    height:2rem;
+                    width:100%;
+                    padding-bottom:7rem;
+                    background:black;
+                    overflow:hidden;
+                    cursor:scroll;
+                }
+                sup{
+                    display:block;
+                }
+    
+    .checkbtn{
+        position:absolute;
+        display:block;
+        left:95%;
+        top:6%;
+       
+       
+    }
+    #check{
+        display:none;
+    }
+    nav ul li{
+        display:block;
+        text-align:center;
+        margin:20px 0;
+    }
+    .teck{
+        display:block;
+        font-size:20px;  
+    }
+    .logo{
+        widtH:5;
+    }
+    .nav-2{
+        margin:0 0 0 0 ;
+        font-size:10px;
+    }
+    ul{
+        position:fixed;
+        margin:30px 0;
+        width:100%;
+        height:100vh;
+        top:20%;
+        left:-100%;
+        text-align:center;
+        transition: all .5s;
+        background:white;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+}
+@media (max-width: 599px) {
+    main{
+  
+        position:static;
+        width:20%;
+        height:90%;
+       margin:;
+        background:gray;
+    }
+    .container{
+        display:grid;
+        grid-template-columns:auto auto ;
+        place-items:center;
+        align-items:center;
+        gap:none;
+        
+        
+        
+       
+        }
+        .container-1{
+            width:7rem;
+            height:7rem;
+            margin: 20px 30px;
+            border-radius:15px 15px 15px 15px;
+            text-align:center;
+            background:white;
+        }
+        .container-2{
+            width:7rem;
+            height:7rem;
+            margin:10px 20px;
+            text-align:center;
+            border-radius:15px 15px 15px 15px;
+            background:white;
+        }
+        .container-3{
+            width:7rem;
+            height:7rem;
+            margin:0 20px;
+            border-radius:15px 15px 15px 15px;
+            text-align:center;
+            background:white;
+        }
+        .container-4{
+            width:7rem;
+            height:7rem;
+            text-align:center;
+            border-radius:15px 15px 15px 15px;
+            margin:0 20px;
+            background:white;
+        }
+        img{
+            width:2rem;
+            height:2rem;
+            margin-top:10px;
+            border-radius:50%;}
+            .tabs{
+                width:290px;
+                height:13rem;
+                padding:0.5px 50px;
+                margin:40px 70px 50px 40px;
+                background:white;
+                border-radius:10px 10px 10px 10px;
+                border-shadow:3px 4px 3px 2px white;
+            }
+            h3{
+                font-size:15px;
+            }
+            .head{
+                color:white;
+                background:green;
+                padding:5px;
+                }
+                .table{
+                    
+                        border-collapse: collapse;
+                        margin: 10px 0;
+                        font-size: 12px;
+                        min-width: 90%;
+                        overflow: hidden;
+                        border-radius: 5px 5px 0 0;
+                      
+                }
+                .table thead tr{
+                    text-align:left;
+                    font-weight:bold;
+                    padding:5px;
+                    
+                }
+                .table, th ,td{
+                    padding:3px;
+                    font-weigth:bold;
+                }
+                .taj{
+                    color:black;
+                    font-weight:bold;
+                   
+                }
+                .but{
+                    width:3rem;
+                     padding:3px;
+                     
+                     font-weight:bold;
+                     border:2px solid green;
+                     border-radius:10px 10px 10px 10px;
+                }
+                .diana{
+                    color:green;
+                    font-weight:bold;
+                }
+                h2{
+                    font-weight:bold;
+                    font-size:10px;
+                }
+                .sub{
+                    color:gray;
+                    font-weight:bold;
+                    font-size:10px;
+                }
+                .prof{
+                    width:4rem;
+                     padding:7px;
+                     margin-bottom:5px;
+                     font-weight:bold;
+                     border:2px solid green;
+                     border-radius:10px 10px 10px 10px;
+                }
+        .tittle{
+            display:none;
+            color:white;
+                width:100vw;
+                height:70px;
+                background:black;
+                padding:10px 0 0 60px;
+                text-align:center;
+                margin:0 60px 0 0;
+                padding-bottom:20px;
+                border:none;
+                font-size:30px;
+                }
+                a.active,a:hover{
+                    margin:30px 0;
+                    background:black;
+                    border-radius:5px 5px 5px 5px;
+                    font-weight:bold;
+                    
+                    transition: all 1s;}
+                nav{
+    
+                    height:2rem;
+                    width:100%;
+                    padding-bottom:7rem;
+                    background:black;
+                    overflow:hidden;
+                    cursor:scroll;
+                }
+                sup{
+                    display:block;
+                }
+    
+    .checkbtn{
+        position:absolute;
+        display:block;
+        left:95%;
+        top:6%;
+       
+       
+    }
+    #check{
+        display:none;
+    }
+    nav ul li{
+        display:block;
+        text-align:center;
+    }
+    .teck{
+        display:block;
+        font-size:20px;  
+    }
+    .logo{
+        widtH:5;
+    }
+    .nav-2{
+        margin:0 0 0 0 ;
+        font-size:10px;
+    }
+    ul{
+        position:fixed;
+        margin:30px 0;
+      
+        width:100%;
+        height:100vh;
+        top:20%;
+        left:-100%;
+        text-align:center;
+        transition: all .5s;
+        background:gray;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+}
+  
+  
+  /* Tablet styles */
+  @media (min-width: 600px) and (max-width: 1023px) {
+    .tittle{
+        color:white;
+            width:75%;
+            height:8%;
+            background:black;
+            padding:5px;
+            text-align:center;
+            margin-left:20px;
+            padding-bottom:20px;
+            border:none;
+            font-size:15px;
+            justify-content:center;
+        }
+  }
+  
+ 
